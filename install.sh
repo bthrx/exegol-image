@@ -2092,6 +2092,12 @@ function install_mitmproxy2swagger() {
   pip3 install mitmproxy2swagger
 } 
 
+function alias_fix() {
+  wget https://raw.githubusercontent.com/ShutdownRepo/Exegol-images/main/sources/zsh/aliases -O /opt/.zsh_alias_fix
+  cat /opt/.zsh_alias_fix >> /opt/.zsh_aliases
+  source ~/.zshrc
+}
+
 function install_base() {
   update || exit
   fapt software-properties-common
@@ -2697,6 +2703,7 @@ function install_bthrx_tools() {
   install_firebase_enum
   install_ipfuscator
   install_mitmproxy2swagger
+  alias_fix
 }
 
 
