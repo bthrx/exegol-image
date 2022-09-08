@@ -25,5 +25,10 @@ exegol install local
 ````
 You will now see local image bthrx as a selection and it will build it locally.
 
+```
 ????
+```
+
+```
 Profit!!
+```
