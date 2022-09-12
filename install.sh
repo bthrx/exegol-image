@@ -2012,8 +2012,8 @@ function install_mobsf() {
   fapt wkhtmltopdf
   pip3 install gunicorn
   git -C /opt/tools clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
-  cd /opt/tools/Mobile-Security-Framework-MobSF
-  ./setup.sh
+  cd /opt/tools/Mobile-Security-Framework-MobSF 
+  sh setup.sh
   echo 'alias mobsf="/opt/tools/Mobile-Security-Framework-MobSF/run.sh 127.0.0.1:8000 &"' >> ~/.zshrc
   source ~/.zshrc
 }
