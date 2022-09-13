@@ -2014,7 +2014,7 @@ function install_mobsf() {
   git -C /opt/tools clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
   cd /opt/tools/Mobile-Security-Framework-MobSF 
   /opt/tools/Mobile-Security-Framework-MobSF/setup.sh
-  echo 'alias mobsf="/opt/tools/Mobile-Security-Framework-MobSF/run.sh 127.0.0.1:8000 &"' >> ~/.zshrc
+  echo 'alias mobsf="cd /opt/tools/Mobile-Security-Framework-MobSF && /opt/tools/Mobile-Security-Framework-MobSF/run.sh 127.0.0.1:8000 &"' >> ~/.zshrc
   source ~/.zshrc
 }
 
