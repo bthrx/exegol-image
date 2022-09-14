@@ -826,7 +826,7 @@ function gopherus() {
 function install_ysoserial() {
   colorecho "Installing ysoserial"
   mkdir /opt/tools/ysoserial/
-  wget -O /opt/tools/ysoserial/ysoserial.jar "https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar"
+  wget -O /opt/tools/ysoserial/ysoserial.jar "https://github.com/frohoff/ysoserial/releases/download/v0.0.6/ysoserial-all.jar"
 }
 
 function phpggc(){
