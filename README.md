@@ -15,8 +15,8 @@ Allow it to install exegol-resources
 Do not build an image yet though.
 #### Copy bthrx.dockerfile and install.sh from this repo
 
-Copy bthrx.dockerfile to exegol-docker-build
-Copy install.sh to exegol-docker-build/sources. allow it to overwrite the install.sh in the folder.
+Copy bthrx.dockerfile to ~/.local/exegol-docker-build
+Copy install.sh to ~/.local/exegol-docker-build/sources. allow it to overwrite the install.sh in the folder.
 
 #### Exegol install local
 Run 
